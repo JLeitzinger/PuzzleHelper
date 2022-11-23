@@ -16,6 +16,9 @@ def numToLetters(number):
 
     return chr(ord('@')+number)
 
+def numToASCII(number):
+    return chr(number)
+
 def checkPrime(number):
     
     primeFlag = 0
@@ -33,8 +36,11 @@ def checkPrime(number):
         return False
 
 def checkArray(arr, check):
+    arr = [int(x) for x in arr]
     if (check=='letters'):
         return [numToLetters(x) for x in arr]
+    elif (check=='ascii'):
+        return [numToASCII(x) for x in arr]
     elif (check=='prime'):
         return [checkPrime(x) for x in arr]
     elif (check=='difference'):
