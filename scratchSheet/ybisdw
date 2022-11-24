@@ -1,0 +1,20 @@
+titles = [
+    'For Starters',
+    'Letters and words',
+    'Numbers',
+    'Thirteen ways of looking at a puzzle',
+    'What is it?', 
+    'Zen'
+]
+
+puzzNums = [
+    3,
+    14,
+    1,
+    10,
+    2,
+    4,
+    2,
+    24,
+    3
+]
